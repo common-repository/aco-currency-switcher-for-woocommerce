@@ -1,0 +1,210 @@
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+div#acowcs_calculator{
+    position: relative;
+    display: block;
+    align-items: center;
+    z-index: 999;
+    margin-bottom: 20px;
+}
+div#acowcs_calculator.cart{
+    width: 50%;
+    max-width: 43%;
+}
+.CalculatorWrap .calculatorBody{
+    background-color: #FAFBFC;
+    border: 1px solid #E3E4E6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 25px;
+}
+div#acowcs_calculator .CalculatorWrap .error {
+    padding: 10px 0;
+    text-align: center;
+}
+div#acowcs_calculator .CalculatorWrap .error span {
+    color: red;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div > div.form-group label{
+    color: black;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div > div.form-group{
+    width: 100%;
+}
+
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: none;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #0F1A29;
+    min-height: 50px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div button img{
+    margin-right: 15px;
+    width: 20px;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div button.active img{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div input:focus,
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div button:focus{
+    outline: unset;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:first-child {
+    margin-left: 0;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:last-child {
+    margin-right: 0;
+    justify-items: center;
+    display: block;
+    text-align: center;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:last-child > div.result {
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+    opacity: 1;
+    color: black;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:last-child > div.result strong {
+    font-size: 22px;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    margin: 22px 0;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div:nth-child(2) > div:nth-child(2) {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+div#acowcs_calculator .CalculatorWrap .calculatorBody > div#calculateBtn.d-none{
+    display: none;
+}
+div#acowcs_calculator .loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    
+}
+div#acowcs_calculator .loader img{
+    max-height: 100px;
+}
+
+
+#CalculatorWrap .mt-3{
+    margin-top: 3rem;
+}
+
+.currencyselect-group > div{
+    flex: 4;
+    min-height: 50px;
+}
+.currencyselect-group > div:nth-child(2){
+    flex: 1;
+}
+.currencyselect-group > div select{
+    width: 100%;
+    border-radius: 100px;
+}
+
+
+/* Select 2 customization */
+.select2-results__option,
+.select2-results__option > span{
+    display: flex;
+    align-items:center;
+}
+
+span.bg_flag {
+    width: 35px;
+    margin-right: 10px;
+    height: 35px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 200px;
+    border: 2px solid #BFBFBF;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.currency-selection .select2-container--default .select2-selection--single .select2-selection__rendered{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    border-radius: 64px;
+    min-height: 50px;
+    line-height: 45px;
+}
+
+.currency-selection .select2-container--default .select2-selection--single{
+    border-width: 0;   
+}
+
+
+.currency-selection .select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 50px;
+    right: 5px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    border-width: 0;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field:focus{
+    box-shadow: none;
+    outline: unset;
+}
+.currency-selection span.empty_space {
+    padding: 1px 10px;
+    display: inline-flex;
+}
+
+.currencyselect-group .arrow_icon{
+    background-image: url(../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 25px;
+    display: inline-flex;
+    background-position: center;
+}

@@ -1,0 +1,112 @@
+#acowcs_widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#acowcs_widget .SwitcherWrap {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+#acowcs_widget .SwitcherWrap .switcherBody {
+    display: block;
+    color: wheat;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav h5 {
+    font-weight: bold;
+    font-size: 14px;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul {
+    margin: 0;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+}
+#acowcs_widget:not(.shortcode) .SwitcherWrap .switcherBody nav ul li:not(.loadmore) {
+    border-radius: 0 50px 50px 0;
+    margin: 5px;
+}
+#acowcs_widget.shortcode .SwitcherWrap .switcherBody nav ul li:not(.loadmore) {
+    border-radius: 0 50px 50px 0;
+    margin: 5px;
+    margin-left: 0;
+    overflow: hidden;
+    max-height: 40px;
+}
+
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.onlySymbol {
+    padding-right: 0;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.onlySymbol > span {
+    display: block;
+    width: 100%;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.active {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li:hover:before {
+    width: 100%;
+    transition-delay: 0.09s;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.active:before {
+    width: 100%;
+    transition-delay: 0.09s;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0 50px 50px 0;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.loadmore {
+    text-align: center;
+    padding: 3px 16px;
+    justify-content: center;
+    border-radius: 50px;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li.loadmore > img {
+    max-height: 30px;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li img.switherImg {
+    max-width: 20px;
+    display: inline-flex;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li > span.currency {
+    padding: 5px 10px;
+    display: inline-flex;
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li > span.flag {
+    padding-right: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 220px;
+    background-position: center;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#acowcs_widget .SwitcherWrap .switcherBody nav ul li > span.currencySign {
+    margin-right: 10px;
+}
+#acowcs_widget .SwitcherWrap .switcherBody div.form-group select{
+    padding: 8px;
+    border-color: #ddd;
+}

@@ -1,0 +1,88 @@
+ul.wc-block-grid__products li.wc-block-grid__product,
+ul.products li.product {
+    overflow: hidden;
+}
+
+ul.wc-block-grid__products li.wc-block-grid__product,
+body.single-product .summary .acowcs_price_info {
+    position: relative;
+}
+body.single-product .acowcs_price_info .acowcs_price_info_icon {
+    background-image: url(../images/info.svg);
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 8px;
+    cursor: pointer;
+}
+body.single-product .acowcs_price_info .acowcs_price_info_list {
+    position: absolute;
+    bottom: 25px;
+    display: block;
+    width: 100%;
+    right: -100%;
+    background-color: wheat;
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: left;
+    border-radius: 5px;
+    column-count: 3;
+    -o-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+}
+body.single-product .acowcs_price_info .acowcs_price_info_list li {
+    border-bottom: 1px solid #ddd;
+}
+ul.products li.product span.price, body.single-product span.price {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.acowcs_price_info_icon, body.single-product span.price .acowcs_price_info_icon {
+    background-image: url(../images/info.svg);
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 8px;
+    cursor: pointer;
+}
+ul.wc-block-grid__products li.wc-block-grid__product .acowcs_price_info_list{
+    bottom: 40%;
+}
+.acowcs_price_info_list, 
+body.single-product span.price .acowcs_price_info_list {
+    position: absolute;
+    bottom: 25px;
+    display: block;
+    width: auto;
+    right: -100%;
+    background-color: wheat;
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+.acowcs_price_info_list li, 
+body.single-product span.price .acowcs_price_info_list li {
+    border-bottom: 1px solid #ddd;
+}
+.acowcs_price_info {
+    display: inline-block;
+    vertical-align: middle;
+}
+.acowcs_price_info {
+    display: inline-block;
+    vertical-align: middle;
+}
+body.single-product .acowcs_price_info{
+    display: flex;
+}
