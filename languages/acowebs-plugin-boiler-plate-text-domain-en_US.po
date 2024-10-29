@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/components/HeaderTop/index.jsx:16
+msgid "Aco Woo Currency Switcher"
+msgstr ""
+
+#: src/components/HeaderTop/index.jsx:26
+msgid "Check Premium Options"
+msgstr ""
+
+#: src/components/Wellcome/index.jsx:10
+msgid "Hey there,"
+msgstr ""
+
+#: src/pages/General.js:14
+msgid "Text Label"
+msgstr ""

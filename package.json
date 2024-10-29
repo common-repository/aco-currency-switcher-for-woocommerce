@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "preact-render-to-string": "^5.1.19"
+  },
+  "dependencies": {
+    "preact": "^10.5.14"
+  }
+}

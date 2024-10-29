@@ -1,0 +1,702 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/components/HeaderTop/index.jsx:22
+msgid "Aco Woo Currency Switcher"
+msgstr ""
+
+#: src/components/HeaderTop/index.jsx:32
+msgid "Check Premium Options"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:16
+#: src/pages/General.js:18
+msgid "General Settings"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:22
+#: src/pages/Currencies.jsx:390
+msgid "Currencies"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:28
+#: src/pages/AdvanceOptions.js:107
+msgid "Advance Options"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:34
+msgid "Payment & Shipping Settings"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:40
+#: src/pages/LocationSettings.js:107
+msgid "Location Settings"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:46
+#: src/pages/StyleSettings.js:169
+msgid "Style"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:52
+#: src/pages/TemplatesSettings.jsx:37
+msgid "Templates"
+msgstr ""
+
+#: src/components/Tabs/index.jsx:58
+msgid "Info"
+msgstr ""
+
+#: src/components/Wellcome/index.jsx:10
+msgid "Hey there,"
+msgstr ""
+
+#: src/components/Wellcome/index.jsx:11
+msgid "Welcome to Currency switcher admin settings"
+msgstr ""
+
+#: src/components/Wellcome/index.jsx:17
+msgid "Support"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:110
+msgid "Currency aggregator"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:113
+msgid "Currency aggregator for source of currency upgration."
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:136
+msgid "API Key"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:153
+msgid "Currency storage"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:156
+msgid "Local storage for user selected currency stored."
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:174
+msgid "Rate auto update"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:177
+msgid "Checked if you need auto update from currency aggregator."
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:215
+msgid "Show Switcher on pages"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:218
+msgid "Select page where you want to show currency switcher."
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:249
+msgid "Show Switcher on User role"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:252
+msgid "Select user role for allow visiable currency switcher."
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:261
+msgid "Include"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:262
+msgid "Exclude"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:29
+msgid "Select Currency Storage"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:30
+msgid "PHP Session"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:31
+msgid "Transient"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:32
+msgid "Cookies"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:343
+#: src/pages/Currencies.jsx:469
+#: src/pages/General.js:337
+#: src/pages/LocationSettings.js:157
+#: src/pages/PaymentSettings.jsx:452
+#: src/pages/StyleSettings.js:343
+#: src/pages/TemplatesSettings.jsx:117
+msgid "Save Changes"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:349
+#: src/pages/Currencies.jsx:474
+#: src/pages/General.js:338
+#: src/pages/LocationSettings.js:158
+#: src/pages/PaymentSettings.jsx:453
+#: src/pages/StyleSettings.js:344
+#: src/pages/TemplatesSettings.jsx:118
+msgid "Reset Default"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:36
+msgid "Hourly"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:37
+msgid "Every 12 hour"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:38
+msgid "Daily"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:39
+msgid "Weekly"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:40
+msgid "Monthly"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:41
+msgid "Yearly"
+msgstr ""
+
+#: src/pages/AdvanceOptions.js:46
+#: src/product.js:514
+msgid "Currency"
+msgstr ""
+
+#: src/pages/Currencies.jsx:152
+msgid "Update currency conversation rate based on default Currency."
+msgstr ""
+
+#: src/pages/Currencies.jsx:157
+msgid "Cent"
+msgstr ""
+
+#: src/pages/Currencies.jsx:160
+msgid "Hide currency cent from frontend view and show round amount."
+msgstr ""
+
+#: src/pages/Currencies.jsx:181
+msgid "Hide currency item from frontend currency switcher."
+msgstr ""
+
+#: src/pages/Currencies.jsx:19
+msgid "Left $99"
+msgstr ""
+
+#: src/pages/Currencies.jsx:194
+msgid "Delete this item."
+msgstr ""
+
+#: src/pages/Currencies.jsx:20
+msgid "Right 99$"
+msgstr ""
+
+#: src/pages/Currencies.jsx:203
+msgid "Can't be delete default item."
+msgstr ""
+
+#: src/pages/Currencies.jsx:21
+msgid "Left with space $ 99"
+msgstr ""
+
+#: src/pages/Currencies.jsx:22
+msgid "Right with space 99 $"
+msgstr ""
+
+#: src/pages/Currencies.jsx:260
+msgid "Import currencies"
+msgstr ""
+
+#: src/pages/Currencies.jsx:261
+msgid "Select a JSON file"
+msgstr ""
+
+#: src/pages/Currencies.jsx:290
+#: src/product.js:589
+msgid "Add new currencies."
+msgstr ""
+
+#: src/pages/Currencies.jsx:304
+msgid "Please Upgrade to Pro version for more options."
+msgstr ""
+
+#: src/pages/Currencies.jsx:319
+msgid "Update rate for selected currency."
+msgstr ""
+
+#: src/pages/Currencies.jsx:337
+msgid "Export currency's and settings as JSON."
+msgstr ""
+
+#: src/pages/Currencies.jsx:344
+msgid "Import currency's and settings from JSON file."
+msgstr ""
+
+#: src/pages/Currencies.jsx:366
+msgid ""
+"Please change your 'Currency aggregator' settings or add currency rate "
+"manually."
+msgstr ""
+
+#: src/pages/Currencies.jsx:387
+#: src/pages/StyleSettings.js:16
+msgid "Default"
+msgstr ""
+
+#: src/pages/Currencies.jsx:393
+msgid "Symbol"
+msgstr ""
+
+#: src/pages/Currencies.jsx:396
+#: src/pages/StyleSettings.js:18
+msgid "Flag"
+msgstr ""
+
+#: src/pages/Currencies.jsx:399
+msgid "Position"
+msgstr ""
+
+#: src/pages/Currencies.jsx:402
+msgid "Decimal"
+msgstr ""
+
+#: src/pages/Currencies.jsx:405
+msgid "Rate & Fee"
+msgstr ""
+
+#: src/pages/Currencies.jsx:408
+msgid "Currency conversion rate & conversion fee based on default Currency."
+msgstr ""
+
+#: src/pages/Currencies.jsx:413
+#: src/product.js:552
+msgid "Action"
+msgstr ""
+
+#: src/pages/Currencies.jsx:84
+msgid "Search countries"
+msgstr ""
+
+#: src/pages/General.js:135
+msgid "Show flags by default"
+msgstr ""
+
+#: src/pages/General.js:138
+msgid "Show flag on switcher by default."
+msgstr ""
+
+#: src/pages/General.js:156
+msgid "Show money signs"
+msgstr ""
+
+#: src/pages/General.js:159
+msgid "Show money sign in front-end switcher."
+msgstr ""
+
+#: src/pages/General.js:178
+msgid "Hide switcher on checkout page"
+msgstr ""
+
+#: src/pages/General.js:181
+msgid "Hide currency switcher from checkout page."
+msgstr ""
+
+#: src/pages/General.js:200
+msgid "Currency convert calculator on product page"
+msgstr ""
+
+#: src/pages/General.js:203
+msgid "Show currency convert calculator on single product page."
+msgstr ""
+
+#: src/pages/General.js:22
+msgid "Enable currency switcher"
+msgstr ""
+
+#: src/pages/General.js:222
+msgid "Currency convert calculator on cart"
+msgstr ""
+
+#: src/pages/General.js:225
+msgid "Show currency convert calculator on cart page."
+msgstr ""
+
+#: src/pages/General.js:244
+msgid "Default currency based on user location"
+msgstr ""
+
+#: src/pages/General.js:247
+msgid "Site default currency based on user location."
+msgstr ""
+
+#: src/pages/General.js:25
+msgid "Enable / Disable currency switcher for fornt-end."
+msgstr ""
+
+#: src/pages/General.js:266
+msgid "Checkout based on user selected currency"
+msgstr ""
+
+#: src/pages/General.js:269
+msgid "Checkout based on user selected currency in checkout page."
+msgstr ""
+
+#: src/pages/General.js:288
+msgid "Show price info icon"
+msgstr ""
+
+#: src/pages/General.js:291
+msgid "Show price info icon in product."
+msgstr ""
+
+#: src/pages/General.js:310
+msgid "Show price info icon on single product page"
+msgstr ""
+
+#: src/pages/General.js:313
+msgid "Show price info icon in single product page."
+msgstr ""
+
+#: src/pages/General.js:346
+msgid "Use our Premium Features Now"
+msgstr ""
+
+#: src/pages/General.js:348
+msgid "Add unlimited currencies."
+msgstr ""
+
+#: src/pages/General.js:349
+msgid "Priority technical support from experts."
+msgstr ""
+
+#: src/pages/General.js:350
+msgid "Fixed product price based on user role(s)."
+msgstr ""
+
+#: src/pages/General.js:351
+msgid "Hide currency based on specific user role(s)."
+msgstr ""
+
+#: src/pages/General.js:353
+msgid "Coming Soon"
+msgstr ""
+
+#: src/pages/General.js:50
+msgid "Fixed product price with multiple currency"
+msgstr ""
+
+#: src/pages/General.js:53
+msgid ""
+"Add additional meta section on each product post type and set fixed price "
+"on each currency's"
+msgstr ""
+
+#: src/pages/General.js:71
+msgid "Fixed coupon price with multiple currency"
+msgstr ""
+
+#: src/pages/General.js:74
+msgid "Fixed coupon rate for each selected multiple currency."
+msgstr ""
+
+#: src/pages/General.js:92
+msgid "Fixed shipping price with multiple currency"
+msgstr ""
+
+#: src/pages/General.js:95
+msgid "Individual fixed shipping rate for each selected currency's."
+msgstr ""
+
+#: src/pages/Info.js:10
+msgid "Shortcodes"
+msgstr ""
+
+#: src/pages/Info.js:14
+msgid "Shortcode for Dropdown"
+msgstr ""
+
+#: src/pages/Info.js:22
+msgid "Shortcode for List's"
+msgstr ""
+
+#: src/pages/LocationSettings.js:110
+msgid "Enable / Disable currencies based on location."
+msgstr ""
+
+#: src/pages/LocationSettings.js:115
+msgid "These option allow admin to enable / disable currency based on country."
+msgstr ""
+
+#: src/pages/LocationSettings.js:149
+#: src/pages/PaymentSettings.jsx:432
+msgid "Add New"
+msgstr ""
+
+#: src/pages/LocationSettings.js:48
+#: src/pages/PaymentSettings.jsx:94
+msgid "Enable"
+msgstr ""
+
+#: src/pages/LocationSettings.js:49
+#: src/pages/PaymentSettings.jsx:95
+msgid "Disable"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:11
+msgid "Select currency"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:161
+msgid "Minimum"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:162
+msgid "Maximum"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:197
+msgid "Add Custom Symbol"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:200
+msgid "Add custom symbol to existing currencies symbol."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:205
+msgid "These option allow admin to set additional custom currencies symbol."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:216
+msgid "List one symbol  per line"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:250
+msgid ""
+"Please add some currency in \"Currencies\" tab for visiable payment's "
+"settings"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:264
+msgid "Payment Settings"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:267
+msgid "Set specific payment method for a particular selected currency."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:272
+msgid ""
+"Additional option for disable or enable woocommerce payment method for "
+"specific currency."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:326
+msgid "Shipping Settings"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:329
+msgid ""
+"Enable or disable specific shipping method for particular selected "
+"currencies."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:334
+msgid ""
+"Additional option for disable or enable woocommerce shipping methods for "
+"specific currency."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:387
+msgid "Shipping Cost's"
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:390
+msgid "Min & Max shipping cost based on currencies."
+msgstr ""
+
+#: src/pages/PaymentSettings.jsx:395
+msgid ""
+"These additional option allow admin to set minimum or maximum amount for "
+"specific currencies."
+msgstr ""
+
+#: src/pages/StyleSettings.js:11
+msgid "Left"
+msgstr ""
+
+#: src/pages/StyleSettings.js:12
+msgid "Right"
+msgstr ""
+
+#: src/pages/StyleSettings.js:121
+msgid "Title"
+msgstr ""
+
+#: src/pages/StyleSettings.js:124
+msgid "Title for currency switcher."
+msgstr ""
+
+#: src/pages/StyleSettings.js:145
+msgid "Bar Position"
+msgstr ""
+
+#: src/pages/StyleSettings.js:148
+msgid "Currency bar position."
+msgstr ""
+
+#: src/pages/StyleSettings.js:17
+msgid "Symbol + Code"
+msgstr ""
+
+#: src/pages/StyleSettings.js:172
+msgid "Currency bar style in front end."
+msgstr ""
+
+#: src/pages/StyleSettings.js:19
+msgid "Flag + Currency Code"
+msgstr ""
+
+#: src/pages/StyleSettings.js:20
+msgid "Flag + Currency Symbol + Code"
+msgstr ""
+
+#: src/pages/StyleSettings.js:227
+msgid "Hover Color"
+msgstr ""
+
+#: src/pages/StyleSettings.js:246
+msgid "Hover Background Color"
+msgstr ""
+
+#: src/pages/StyleSettings.js:271
+msgid "Shortcode & Widget"
+msgstr ""
+
+#: src/pages/StyleSettings.js:274
+msgid "Currency bar style for shortocode."
+msgstr ""
+
+#: src/pages/StyleSettings.js:281
+msgid "Main Color"
+msgstr ""
+
+#: src/pages/StyleSettings.js:299
+msgid "Background Color"
+msgstr ""
+
+#: src/pages/StyleSettings.js:321
+msgid "Custom CSS"
+msgstr ""
+
+#: src/pages/StyleSettings.js:324
+msgid "Custom css."
+msgstr ""
+
+#: src/pages/StyleSettings.js:39
+msgid "Style Settings"
+msgstr ""
+
+#: src/pages/StyleSettings.js:41
+msgid ""
+"These aditional option allow admin to style front-end appeared currency "
+"switcher."
+msgstr ""
+
+#: src/pages/StyleSettings.js:48
+msgid "Enable Currencies Bar"
+msgstr ""
+
+#: src/pages/StyleSettings.js:51
+msgid "Enable currencies bar on front-end."
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:104
+msgid "Dynamic Content"
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:39
+msgid ""
+"Email template for notification while update currency rate based on default "
+"currency."
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:45
+msgid "Send email notification while update currency rate automatically"
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:48
+msgid ""
+"Send email notification to admin email address while update currency rate "
+"automatically based on default currency."
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:72
+msgid "Email Subject"
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:75
+msgid "Write email subject for currency update email notification."
+msgstr ""
+
+#: src/pages/TemplatesSettings.jsx:94
+msgid "Email Body"
+msgstr ""
+
+#: src/product.js:192
+msgid "Remove Item."
+msgstr ""
+
+#: src/product.js:379
+msgid "Currency Switcher Fixed Price based on User Role"
+msgstr ""
+
+#: src/product.js:401
+msgid "Rule's"
+msgstr ""
+
+#: src/product.js:470
+msgid "Add new currencies for user role."
+msgstr ""
+
+#: src/product.js:493
+msgid "Currency Switcher Fixed Product Price"
+msgstr ""
+
+#: src/product.js:499
+msgid "Currency Switcher Fixed Amount"
+msgstr ""
+
+#: src/product.js:519
+msgid "Variation"
+msgstr ""
+
+#: src/product.js:527
+msgid "Regular Price"
+msgstr ""
+
+#: src/product.js:534
+msgid "Amount"
+msgstr ""
+
+#: src/product.js:545
+msgid "Sales Price"
+msgstr ""
+
+#: src/product.js:611
+msgid "Save"
+msgstr ""
